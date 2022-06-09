@@ -6,15 +6,15 @@ Parameters:
   ImageId:
     Type: String
     Description: 'Linux 2 AMI for Ireland eu-west1 Region'
-    Default: 'ami-0fa49cc9dc8d62c84'
+    Default: 'ami-0fxxxxxxxxxxx'
   VpcId:
     Type: String
     Description: VPC id
-    Default: vpc-05f56a865b271bcad
+    Default: vpc-05xxxxxxxxx
   SubnetId:
     Type: String
     Description: Subnet in which to launch an EC2
-    Default: subnet-099c00829544c38b5
+    Default: subnet-09xxxxxxxxxxx
   AvailabilityZone:
     Type: String
     Description: Availability Zone into which instance will launch
@@ -26,7 +26,7 @@ Parameters:
   KeyName:
     Description: SSH Keypair to login to the instance
     Type: AWS::EC2::KeyPair::KeyName
-    Default: swapna
+    Default: xxxxxxxx
 
 Resources:
   DemoInstance:
