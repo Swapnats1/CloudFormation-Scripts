@@ -10,11 +10,11 @@ Parameters:
     Description: region only 2 region supported 
     Type: String
   StopScheduled: 
-    Default: cron(0 */12 * ? * *)
+    Default: cron(15 10 * * ? *)
     Description: enter an Schedule expression example cron(0 18 * ? * *) see https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html
     Type: String
   StartScheduled: 
-    Default: cron(0 */10 * ? * *)
+    Default: cron(17 10 * * ? *)
     Description: enter an Schedule expression example cron(0 7 * ? * * ) see https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html
     Type: String
 Resources:
